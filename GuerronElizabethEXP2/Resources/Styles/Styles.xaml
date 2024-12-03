@@ -2,19 +2,33 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Style x:Key="NombreStyle" TargetType="Label">
-        <Setter Property="FontSize" Value="20" />
-        <Setter Property="TextColor" Value="Black" />
+    <Style x:Key="NombreStyle1" TargetType="Label">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="TextColor" Value="YellowGreen" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="NombreStyle2" TargetType="Label">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="TextColor" Value="HotPink" />
+        
         <Setter Property="HorizontalOptions" Value="Center" />
         <Setter Property="VerticalOptions" Value="Center" />
     </Style>
 
-    <Style x:Key="ApellidoStyle" TargetType="Label">
-        <Setter Property="FontSize" Value="20" />
-        <Setter Property="TextColor" Value="Green" />
+    <Style x:Key="ApellidoStyle1" TargetType="Label">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="TextColor" Value="OrangeRed" />
         <Setter Property="HorizontalOptions" Value="Center" />
         <Setter Property="VerticalOptions" Value="Center" />
     </Style>
+    <Style x:Key="ApellidoStyle2" TargetType="Label">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="TextColor" Value="MediumPurple" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
 
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />

@@ -7,12 +7,7 @@
 
     <ScrollView>
         <VerticalStackLayout Spacing="20" Padding="30">
-            <Label Text="Recarga Telefónica"
-              FontSize="28"
-              TextColor="White"
-              FontAttributes="Bold"
-              BackgroundColor="Purple"
-             HorizontalOptions="FillAndExpand" />
+            
             <Label Text="Ingrese el número de teléfono:"
               FontSize="18"
               TextColor="Black" />
@@ -39,7 +34,7 @@
             <Button x:Name="JBtn_RecargarEGuerron"
                Text="Recargar"
                FontSize="18"
-               BackgroundColor="GreenYellow"
+               BackgroundColor="MediumPurple"
                TextColor="White"
                CornerRadius="10"
                HorizontalOptions="FillAndExpand"
