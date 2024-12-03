@@ -10,7 +10,7 @@
 
 
         <ShellContent Title="Recarga Telefónica"
-                     ContentTemplate="{DataTemplate local:StackLayout}" />
+                ContentTemplate="{DataTemplate local:StackLayout}" />
 
     <ShellContent Title="Datos Personales"
                      ContentTemplate="{DataTemplate local:GridLayout}" />
