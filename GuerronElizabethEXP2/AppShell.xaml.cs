@@ -1,4 +1,5 @@
-﻿namespace GuerronElizabethEXP2
+﻿
+namespace GuerronElizabethEXP2
 {
     public partial class AppShell : Shell
     {
@@ -6,5 +7,7 @@
         {
             InitializeComponent();
         }
+
+        
     }
 }

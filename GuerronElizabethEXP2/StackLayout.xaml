@@ -2,11 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GuerronElizabethEXP2.StackLayout"
-             Title="StackLayout">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+              BackgroundColor="White"
+            Title="Recarga Telefónica">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Label Text="Recarga Telefónica"
+              FontSize="28"
+              TextColor="Pink"
+              FontAttributes="Bold"
+              HorizontalOptions="Center" />
+            <Label Text="Ingrese el número de teléfono:"
+              FontSize="18"
+              TextColor="Black" />
+            <Entry x:Name="JTex_NumeroEGuerron"
+              Placeholder="Número telefónico"
+              Keyboard="Numeric"
+              FontSize="16"
+              TextColor="Black"
+              BackgroundColor="#EDEDED"
+              HorizontalOptions="FillAndExpand" />
+            <Label Text="Ingrese su nombre:"
+              FontSize="18"
+              TextColor="Black"/>
+            <Entry x:Name="JTex_NombreEGuerron"
+              Placeholder="Nombre del usuario"
+              FontSize="16"
+              TextColor="Black"
+              BackgroundColor="#EDEDED"
+              HorizontalOptions="FillAndExpand"/>
+            <Label x:Name="JLbl_ResumenEGuerron"
+              Text="Seleccione una recarga para ver el resumen."
+              FontSize="16"
+              TextColor="Gray"
+              HorizontalOptions="Center" />
+            <Button x:Name="JBtn_RecargarEGuerron"
+               Text="Recargar"
+               FontSize="18"
+               BackgroundColor="GreenYellow"
+               TextColor="White"
+               CornerRadius="10"
+               HorizontalOptions="FillAndExpand"
+               Clicked="JBtn_Recargar_ClickEGuerron" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

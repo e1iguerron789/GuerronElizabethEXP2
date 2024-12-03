@@ -6,8 +6,10 @@
     xmlns:local="clr-namespace:GuerronElizabethEXP2"
     Shell.FlyoutBehavior="Disabled"
     Title="GuerronElizabethEXP2">
+    <TabBar>
 
-    <ShellContent Title="Recarga Telefónica"
+
+        <ShellContent Title="Recarga Telefónica"
                      ContentTemplate="{DataTemplate local:StackLayout}" />
 
     <ShellContent Title="Datos Personales"
